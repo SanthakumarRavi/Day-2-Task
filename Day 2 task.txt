@@ -1,0 +1,37 @@
+Differences between Document and Window Objects?
+
+
+
+Document Objects
+1. The document object represents a web page that is loaded in the browser. By accessing the document object, we can access the element in the HTML page. With the help of document objects, we can add dynamic content to our web page.
+2. The document object can be accessed with a window.document or just document.
+3. DOM Structure: The document object provides a hierarchical representation of the HTML elements on a webpage, allowing developers to navigate, modify, and manipulate the content dynamically.
+4. Each HTML document that gets loaded into a window becomes a document object. The document contains the contents of the page. Using document object, JavaScript can modify, add and delete the HTML elements, attributes CSS styles in the page
+
+Syntax:
+document.property_name;
+
+
+
+
+
+Window Object?
+1. The window object represents the browser window or tab containing the DOM document. It acts as a global object, providing methods and properties related to the browser environment, including navigation, location, history, and timing.
+2. The window object serves as the global scope in JavaScript, meaning variables and functions declared without the var, let, or const keyword become properties of the window object.
+3. The window object can be accessed with a window.property_name.
+4. The property to access a frame is window.frames[], which is an array of all the frames. If you only have one iframe you access it by using window.frames[0]. Since the iframe is also a window object, accessing window properties of that frame is done by using window.frames[0].mywindowproperty.
+
+
+Syntax:
+window.property_name;
+
+
+
+
+
+
+
+
+
+
+
